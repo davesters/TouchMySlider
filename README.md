@@ -18,7 +18,7 @@ More info here: [http://www.lovesmesomecode.com/mobile/make-fast-mobile-websites
 
 HTML:
 
-    <div id="details_slider" class="slider">
+    <div id="slider">
         <div class="panel" data-nav-name="Panel 1"></div>
         <div class="panel" data-nav-name="Panel 2"></div>
         <div class="panel" data-nav-name="Panel 3"></div>
