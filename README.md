@@ -16,6 +16,17 @@ More info here: [http://www.lovesmesomecode.com/mobile/make-fast-mobile-websites
 
 ## Use
 
+HTML:
+
+    <div id="details_slider" class="slider">
+        <div class="panel" data-nav-name="Panel 1"></div>
+        <div class="panel" data-nav-name="Panel 2"></div>
+        <div class="panel" data-nav-name="Panel 3"></div>
+        <div class="panel" data-nav-name="Panel 4"></div>
+    </div>
+
+Javascript:
+
     $(element).touchMySlider(options);
 
 If you are using this in a single page PhoneGap app, or mobile website, be sure to call this when you are done with it.
@@ -38,7 +49,7 @@ This will remove all event listeners, clear out variables and destroy any genera
 
 **startingPanel** - The panel to start on.  Defaults to 0, or the first panel.
 
-**navType** - The type of navigation indicator to use. The options are either 'bullets', 'navbar' or 'none'.  The bullets are white dots at the bottom of the panels.  Very similar to the iPhone launch screen.  The 'navbar' is a bar that runs across the top of the panels to indicate what panel you are on, and will show a portion of the adjacent panel titles. Attached a `data-nav-name` attribute to the `panel` elements with the title that will show in the navbar.  Default to 'bullets'.
+**navType** - The type of navigation indicator to use. The options are either 'bullets', 'navbar' or 'none'.  The bullets are white dots at the bottom of the panels.  Very similar to the iPhone launch screen.  The 'navbar' is a bar that runs across the top of the panels to indicate what panel you are on, and will show a portion of the adjacent panel titles. Attach a `data-nav-name` attribute to the `panel` elements with the title that will show in the navbar.  Default to 'bullets'.
 
 **scrollVert** - True or false to indicate if the plugin should activate a vertical iScroll container in each panel. Handy if your content is long. Defaults to false,
 
@@ -46,4 +57,4 @@ This will remove all event listeners, clear out variables and destroy any genera
 
 **navbarWidthPercentage** - The percentage width of the navbar titles.  This can be tweaked depending on how long your panel titles are so they display properly.  Defaults to 0.5, or 50% the panel width;
 
-Try it out.  Let me know if there are any major bugs. I will be updating this as I use it more apps. For now, have at it.
+Try it out.  Let me know if there are any major bugs. I will be updating this as I use it in more apps. For now, have at it.
